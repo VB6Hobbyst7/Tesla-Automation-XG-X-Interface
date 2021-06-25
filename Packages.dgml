@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="LeftToRight" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Tesla Automation XG-X Interface" Label="Tesla Automation XG-X Interface" Category="Projekt" />
+    <Node Id="EntityFramework.de 5.0.0" Label="EntityFramework.de 5.0.0" Category="Paket" />
+  </Nodes>
+  <Links>
+    <Link Source="Tesla Automation XG-X Interface" Target="EntityFramework.de 5.0.0" Category="Installiertes Paket" />
+  </Links>
+  <Categories>
+    <Category Id="Projekt" />
+    <Category Id="Paket" />
+  </Categories>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Projekt" ValueLabel="True">
+      <Condition Expression="HasCategory('Projekt')" />
+      <Setter Property="Background" Value="Blue" />
+    </Style>
+  </Styles>
+</DirectedGraph>
